@@ -1,7 +1,7 @@
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common'
 import { v4 as uuid  } from 'uuid'
-import { CreateCarDto } from './dtos/create-car.dto'
-import { UpdateCarDto } from './dtos/update-car.dto'
+import { CreateCarDto } from './dto/create-car.dto'
+import { UpdateCarDto } from './dto/update-car.dto'
 import { Car } from './interfaces/car.interface'
 
 @Injectable()
