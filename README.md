@@ -22,3 +22,9 @@ $ npm run start:prod
 ```bash
 # error
 ```
+
+## Run seed
+
+```
+http://localhost:3000/seed
+```
